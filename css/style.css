@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Serif', serif;
+}
+section{
+    min-height: 50vh;
+}
+header{
+    position: relative;
+}
+.navbar{
+    /* border-bottom: 5px solid #f6be30dd; */
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+main{
+    height: 100vh;
+}
+main .left{
+    margin-top: 13rem;
+}
+main .right{
+    margin-top: 8rem;
+}
+main .right img{
+    width: 85%;
+    margin-left: 4rem;
+}
+.title{
+    position: relative;
+    padding: 1rem 0;
+    /* display: inline-block; */
+}
+.title:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5rem;
+    height: .1rem;
+    background-color: #F6BF30;
+}
+.order .menu{
+    margin-top: 10rem;
+}
+.order .menu img{
+    margin-top: -6rem;
+}
+.order .card-title{
+    font-weight: 700;
+}
+.order h5{
+    font-size: 1.5rem;
+}
+.order span{
+    font-weight: 700;
+    padding-right: 15rem;
+}
+.your-order-price{
+    display: none;
+}
+.order-title{
+    display: none;
+}
+
+.your-order-price{
+    margin: 1.5rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:630px){
+    .title{
+        margin-top: 16rem;
+    }
+    .order .menu img{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width:360px){
+    .order span{
+        padding-right: 8rem;
+    }
+}
